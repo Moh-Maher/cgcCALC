@@ -26,5 +26,5 @@ In order build the main executable file, type make main or just make on your ter
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap3.png?raw=true "Optional Title")
 
 # Documentation 
-You can generate the documention files using the "Doxyfile" in the main directory. ( doxygen Doxyfile) 
+You can generate the documentation files using the "Doxyfile" in the main directory. ( doxygen Doxyfile) 
  
