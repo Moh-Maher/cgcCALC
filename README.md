@@ -1,9 +1,9 @@
 # cgcCALC
 cgcCALC is a ligth C++ routine to calculate Clebsch-Gordon Coefficients in numerical and symbolic form.
 
-======
-Files:
-======
+ 
+# Files:
+ 
 The gzipped tarred file (cgcCALC.tar.gz) will produce a directory cgcCALC with a number of subdirectories.
 The created directory is called the main directory in the remainder.
 The main directory contains the files README, and a Makefile.
@@ -17,11 +17,11 @@ In order build the main executable file, type make main or just make on your ter
 
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap1.png?raw=true "Optional Title")
 
--Select an option:
+-  Select an option:
 
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap2.png?raw=true "Optional Title")
 
--Example output:
+-  Example output:
 
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap3.png?raw=true "Optional Title")
  
