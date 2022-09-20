@@ -17,7 +17,11 @@ In order build the main executable file, type make main or just make on your ter
 
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap1.png?raw=true "Optional Title")
 
-#Select an option:
+-Select an option:
 
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap2.png?raw=true "Optional Title")
+
+-Example output:
+
+![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap3.png?raw=true "Optional Title")
  
