@@ -2,6 +2,8 @@
 Symbolic Calculator for Clebsch-Gordan Coefficients.
 
 - cgcCALC can be used to generate all the possible Eigenvectors for a coupled system (j1 + j2).
+- Generate LaTex file to store the output results.
+
 # Files:
  
 The gzipped tarred file (cgcCALC.tar.gz) will produce a directory cgcCALC with a number of subdirectories.
