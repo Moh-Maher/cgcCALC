@@ -1,5 +1,5 @@
 # cgcCALC
-cgcCALC is a ligth C++ routine to calculate Clebsch-Gordon Coefficients in numerical and symbolic form.
+cgcCALC is a ligth C++ routine to calculate Clebsch-Gordan Coefficients in numerical and symbolic form.
 
  
 # Files:

@@ -159,7 +159,7 @@ void ListOfAllCGCs(const double& j1, const double& j2)
 		}
 	}
 	std::cout<<"----------------------------------------------------------------"<<std::endl;
-	std::cout<<"Clebsch-Gordon coefficients for system with j1 = ";
+	std::cout<<"Clebsch-Gordan coefficients for system with j1 = ";
 	DecimalToFraction(j1);
 	std::cout<<" and j2 = ";
 	DecimalToFraction(j2);

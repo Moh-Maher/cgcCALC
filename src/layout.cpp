@@ -61,7 +61,7 @@ void message::Name(void)
 	printf(" `---.`-  / `---'`-----`--' `--`-----'`-----' \n");
 	printf("     `---'                                    \n");
 	//printf("\n");
-	printf("Symbolic Clebsch-Gordon Coefficients Calculator \n\n");
+	printf("Symbolic Clebsch-Gordan Coefficients Calculator \n\n");
 	printf("    MOHAMMED MAHER ABDELRAHIM MOHAMMED 2022  \n");
 	printf("          maherali8932@gmail.com             \n\n");
 	//printf("**********************************************\n");
@@ -88,9 +88,9 @@ void message::Main_Menu()
 		std::cout<< "-----==============[ cgcCALC Main Menu ]==============-----"<<std::endl;
 		std::cout<<"[+] Select an option:\n";
 		std::cout<<std::endl;
-		printf("1 - Compute all the possible Clebsch-Gordon coefficients for given j1 and j2 \n");
+		printf("1 - Compute all the possible Clebsch-Gordan coefficients for given j1 and j2 \n");
 		printf("2 - Get states of the coupled system ( j1 + j2 )\n");
-		printf("3 - Compute specific Clebsch-Gordon coefficient <j1, j2; m1, m2| J, M>  \n");
+		printf("3 - Compute specific Clebsch-Gordan coefficient <j1, j2; m1, m2| J, M>  \n");
 		printf("4 - Generate Latex Output file\n");
 		printf("5 - Clear the screen\n");
 		printf("6 - Exit\n");

@@ -150,7 +150,7 @@ void LaTex::TexListOfAllCGCs(const double& j1, const double& j2)
 	}
 	ofile.open(file_path,std::ios_base::app);
  
-	ofile<<"Clebsch-Gordon coefficients for system with $j_1 = ";
+	ofile<<"Clebsch-Gordan coefficients for system with $j_1 = ";
 	ofile<<LaTexMathFraction(j1);
 	ofile<<"$ and $j_2 = ";
 	ofile<<LaTexMathFraction(j2);

@@ -1,7 +1,7 @@
 //=================================================================================================
 /*!
 //  \file cgc.h
-//  \brief Header file for Clebsch–Gordan Coefficients Generalized by power series representations.
+//  \brief Header file for Clebsch-Gordan Coefficients Generalized by power series representations.
 //  
 // For more details see:
 // <a href="https://functions.wolfram.com/HypergeometricFunctions/ClebschGordan/06/01/" >functions.wolfram</a>          
@@ -50,7 +50,7 @@
 
 //*************************************************************************************************
 /*! \class CGCcoeff
-* \brief CGCcoeff is a class for Clebsch–Gordan Coefficients representation 
+* \brief CGCcoeff is a class for Clebsch-Gordan Coefficients representation 
 * \f$<j_1, j_2; m_1, m_2 | j, m >\f$.
 *
 * Note that the coefficients \f$<j_1, j_2; m_1, m_2 | j, m >\f$ = 0. unless \f$m1+m2=m\f$.
@@ -128,7 +128,7 @@ double ClebschGordan(const double& j1, const double& j2, const double& m1, const
 double ClebschGordan(const CGCcoeff& cgc); ///< Overloaded ClebschGordan function.
 std::vector<double> MQuantumNumber(const double &j); ///< Calculate the possible magnetic quantum number \f$m\$ for given spin of length \f$j\f$.  
 std::vector<double> possibleJ(const double& j1, const double& j2); ///< calculate the possible total angular momenta values  
-void ListOfAllCGCs(const double& j1, const double& j2); ///< calculate all Clebsch–Gordan Coefficients for addition of two angular momenta. 
-std::map<CGCcoeff, std::vector<CGCcoeff>>  CGCcoeffMap (const double& j1, const double& j2); ///< store Clebsch–Gordan Coefficients as a std::map container. 
+void ListOfAllCGCs(const double& j1, const double& j2); ///< calculate all Clebsch-Gordan Coefficients for addition of two angular momenta. 
+std::map<CGCcoeff, std::vector<CGCcoeff>>  CGCcoeffMap (const double& j1, const double& j2); ///< store Clebsch-Gordan Coefficients as a std::map container. 
 void CoupledStates(const double& j1, const double& j2); ///< List the states of the coupled system.
 #endif
