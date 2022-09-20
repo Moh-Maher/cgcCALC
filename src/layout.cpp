@@ -53,7 +53,7 @@ void message::Info(void)
 void message::Name(void)
 {
 	printf("\n");
-	printf("--▂▃▄▅▆▇█▓▒░Clebsch-Gordon v.1.0░▒▓█▇▆▅▄▃▂ --\n\n");
+	printf("--▂▃▄▅▆▇█▓▒░Clebsch-Gordan v1.1.0-a.1░▒▓█▇▆▅▄▃▂ --\n\n");
 	printf("                 ,-----. ,---. ,--.   ,-----. \n");
 	printf(" ,---.,---. ,---'  .--.//  O  \\|  |  '  .--./ \n");
 	printf("| .--| .-. | .--|  |   |  .-.  |  |  |  |     \n");
