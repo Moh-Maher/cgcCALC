@@ -13,8 +13,9 @@ contains the source files. test contains the main example program. The subdirect
 contains the laTex output the one of the options within main program can produce.
 
 # Example: make main
+In order build the main executable file, type make main or just make on your terminal. 
 
-![Alt text](https://github.com/Moh-Maher/PARTON-x/blob/master/snap1.png?raw=true "Optional Title")
+![Alt text](https://github.com/Moh-Maher/cgcCALC/tree/main/doc/images/snap1.png?raw=true "Optional Title")
 
 #Select an option:
 
