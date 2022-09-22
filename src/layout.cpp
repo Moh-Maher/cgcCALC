@@ -233,6 +233,7 @@ void message::Main_Menu()
 				mypdf.TexListOfAllCGCs(j1,j2);
 				mypdf.CoupledStates(j1,j2);
 				mypdf.EndLaTex();
+				std::cout<<"[ Your LaTex file has been saved in the output directory. ]"<<std::endl;
 				std::cout<<"----------------------------------------------------------------"<<std::endl;
 				std::cout<<"press [1] to back to the Main Menu"<<std::endl;
 				std::cout<<"press [2] to Exit"<<std::endl;
