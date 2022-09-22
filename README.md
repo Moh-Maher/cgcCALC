@@ -15,7 +15,7 @@ The subdirectory src contains the source files.
 The test subdirectory contains the main example program. The subdirectory output shall store the LaTex file that one of the options within the main program can produce.
 
 # Example: make main
-In order build the main executable file, type make main or just make on your terminal. 
+In order build the main executable file, run the make file: "make main" or just "make" on your terminal. 
 
 ![Alt text](https://github.com/Moh-Maher/cgcCALC/blob/main/doc/images/snap1.png?raw=true "Optional Title")
 
