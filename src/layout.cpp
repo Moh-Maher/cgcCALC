@@ -29,6 +29,7 @@
 #include<iostream>
 #include <stdio.h>
 #include<unistd.h>
+#include<iomanip>
 #include"layout.h"
 #include"cgc.h"
 #include"latex.h"
@@ -75,7 +76,7 @@ void message::Main_Menu()
 {
 	int choice;
 	int back;
- 
+ 	std::cout.fill('-');
 	lable1:  while(choice != 6)
 	{
 		message stamp;
@@ -111,7 +112,7 @@ void message::Main_Menu()
 				std::cin>>j2;
 				
 				ListOfAllCGCs(j1,j2); 
-				std::cout<<"----------------------------------------------------------------"<<std::endl;
+				std::cout<<std::cout.fill() << std::setw(65) <<"\n";
 				std::cout<<"press [1] to back to the Main Menu"<<std::endl;
 				std::cout<<"press [2] to Exit"<<std::endl;
 				lable2: std::cin>>back;//scanf("%d", &back);
@@ -142,7 +143,7 @@ void message::Main_Menu()
 				std::cout<<"Insert j2 value:\n";             
 				std::cin>>j2;
 				CoupledStates(j1,j2); 
-				std::cout<<"----------------------------------------------------------------"<<std::endl;
+				std::cout<<std::cout.fill() << std::setw(65) <<"\n";	
 				std::cout<<"press [1] to back to the Main Menu"<<std::endl;
 				std::cout<<"press [2] to Exit"<<std::endl;
 				lable3: std::cin>>back;//scanf("%d", &back);
@@ -197,7 +198,7 @@ void message::Main_Menu()
 				std::cout<<" = ";
 				DecimalToFraction(ClebschGordan(j1,j2,m1,m2,J,M));
 				std::cout<<std::endl;
-			std::cout<<"----------------------------------------------------------------"<<std::endl;
+				std::cout<<std::cout.fill() << std::setw(65) <<"\n";
 				std::cout<<"press [1] to back to the Main Menu"<<std::endl;
 				std::cout<<"press [2] to Exit"<<std::endl;
 				lable4: std::cin>>back;//scanf("%d", &back);
@@ -234,7 +235,7 @@ void message::Main_Menu()
 				mypdf.CoupledStates(j1,j2);
 				mypdf.EndLaTex();
 				std::cout<<"[ Your LaTex file has been saved in the output directory. ]"<<std::endl;
-				std::cout<<"----------------------------------------------------------------"<<std::endl;
+				std::cout<<std::cout.fill() << std::setw(65) <<"\n";
 				std::cout<<"press [1] to back to the Main Menu"<<std::endl;
 				std::cout<<"press [2] to Exit"<<std::endl;
 				lable5: std::cin>>back;//scanf("%d", &back);
